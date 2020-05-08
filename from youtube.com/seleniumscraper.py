@@ -27,3 +27,9 @@ for video in videos:
 
 df = pd.DataFrame(videos_list)
 print(df)
+
+df.to_csv('youtube_channel_videos.csv')
+df.to_excel('youtube_channel_videos.xlsx')
+
+browser.close()
+quit()
