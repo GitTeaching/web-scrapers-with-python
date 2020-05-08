@@ -3,7 +3,7 @@ import pandas as pd
 
 url = 'https://www.youtube.com/channel/UC8tgRQ7DOzAbn9L7zDL8mLg/videos?view=0&sort=p&flow=grid'
 
-browser = webdriver.Chrome('D:/Python ML DL/Projects/web-scrapers/chromedriver_win32/chromedriver.exe')
+browser = webdriver.Chrome('/web-scrapers/chromedriver_win32/chromedriver.exe')
 browser.get(url)
 browser.execute_script("window.scrollTo(0, document.body.scrollHeight)") 
 
