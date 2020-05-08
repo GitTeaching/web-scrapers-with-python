@@ -1,7 +1,7 @@
 from selenium.webdriver import Chrome
 
 
-browser = Chrome('D:/Python ML DL/Projects/web-scrapers/chromedriver_win32/chromedriver.exe')
+browser = Chrome('/web-scrapers/chromedriver_win32/chromedriver.exe')
 
 browser.get('https://duckduckgo.com')
 
